@@ -42,24 +42,13 @@ function optionChanged(newSample) {
  }
 
     //  Create the Traces
-    // var trace1 = {
-    //   x: samples.sample_values,
-    //   y: samples.otu_ids,
-    //   type: "bar",
-    //   name: "Top",
-    //   orientation: "h"
-    // };
+
   
 //     // Create the data array for the plot
-//     var data = [trace1];
+// 
   
 //     // Define the plot layout
-//     var layout = {
-//       title: "Square Root of Cancer Survival by Organ",
-//       xaxis: { title: "Organ" },
-//       yaxis: { title: "Square Root of Survival" }
-//     };
-  
+//   
 //     // Plot the chart to a div tag with id "plot"
 //     Plotly.newPlot("plot", data, layout);
-//   });
+//
