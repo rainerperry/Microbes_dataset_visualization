@@ -1,11 +1,6 @@
 
 
 
-
-
-
-
-
 function init() {
 d3.json("data/samples.json").then((samples) => {
 
@@ -43,7 +38,6 @@ function buildtable(sampleID) {
         var sampleValues = filterdata[0].sample_values.slice(0, 10).reverse();
         console.log(sampleValues)
         var otuLabels = filterdata[0].otu_labels.slice(0, 10).reverse();
-        console.log(otuLabels)``
 
         //get OTUs in ascending order:
         //code here???
@@ -105,7 +99,6 @@ function buildtable(sampleID) {
     });
 }
 
-
 //4. Function to filter & display the sample metadata in box "Demographic Info" 
 
 function dataDisplay(demoInfo) {
@@ -133,7 +126,6 @@ function optionChanged(newSample) {
  }
 
 
-//Update the plots each time a new sample is selected
 
 
 init()
