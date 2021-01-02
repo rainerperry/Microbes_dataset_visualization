@@ -1,6 +1,5 @@
 
 
-
 function init() {
 d3.json("data/samples.json").then((samples) => {
 
@@ -124,8 +123,6 @@ function optionChanged(newSample) {
 
     dataDisplay(newSample);
  }
-
-
 
 
 init()
