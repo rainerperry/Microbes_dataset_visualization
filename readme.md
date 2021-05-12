@@ -1,4 +1,4 @@
-# Belly Button Biodiversity with Plot.ly
+### Visualizing Biodiversity of Human Navel with Plot.ly
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
